@@ -1,0 +1,352 @@
+Dependencies for Project 'Charge_Manager V1.0.00', Target ' project_template_release': (DO NOT MODIFY !)
+F (.\startup_hc32l136.s)(0x5FED9D73)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1"-o .\output\release\startup_hc32l136.o --depend .\output\release\startup_hc32l136.d)
+F (..\..\..\..\mcu\common\system_hc32l136.c)(0x5E1EE9E0)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\system_hc32l136.o --omf_browse .\output\release\system_hc32l136.crf --depend .\output\release\system_hc32l136.d)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+F (..\source\main.c)(0x5FF98CE2)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (.\my_sdk\my_systick\my_systick.h)(0x5F01C8F8)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (.\my_sdk\my_gpio\my_gpio.h)(0x5FEDA4C7)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+I (.\my_sdk\my_uart\my_uart.h)(0x5EFEEF51)
+I (.\my_sdk\my_i2c\my_i2c0.h)(0x5F009978)
+I (.\my_sdk\my_i2c\my_i2c1.h)(0x5F009978)
+I (.\hardware\mcp3426\mcp3426.h)(0x5F00A145)
+I (.\function\manager\manager.h)(0x5EFF141A)
+I (.\hardware\oled\oled.h)(0x5EE434A0)
+I (.\function\gui\gui.h)(0x5FF276D6)
+F (.\my_sdk\my_uart\my_uart.c)(0x5EFEEF34)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\my_uart.o --omf_browse .\output\release\my_uart.crf --depend .\output\release\my_uart.d)
+I (my_sdk\my_uart\my_uart.h)(0x5EFEEF51)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (..\..\..\..\driver\inc\uart.h)(0x5BD6B3D4)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+I (.\my_sdk\my_systick\my_systick.h)(0x5F01C8F8)
+F (.\my_sdk\my_systick\my_systick.c)(0x5EFEF15C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\my_systick.o --omf_browse .\output\release\my_systick.crf --depend .\output\release\my_systick.d)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\..\..\..\driver\inc\flash.h)(0x5E3793B7)
+F (.\my_sdk\my_gpio\my_gpio.c)(0x5FEDA4C7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\my_gpio.o --omf_browse .\output\release\my_gpio.crf --depend .\output\release\my_gpio.d)
+I (my_sdk\my_gpio\my_gpio.h)(0x5FEDA4C7)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (.\my_sdk\my_systick\my_systick.h)(0x5F01C8F8)
+F (.\my_sdk\my_i2c\my_i2c0.c)(0x5F009978)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\my_i2c0.o --omf_browse .\output\release\my_i2c0.crf --depend .\output\release\my_i2c0.d)
+I (..\..\..\..\driver\inc\i2c.h)(0x5BD6B3D5)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+I (my_sdk\my_i2c\my_i2c0.h)(0x5F009978)
+I (.\my_sdk\my_uart\my_uart.h)(0x5EFEEF51)
+F (.\my_sdk\my_i2c\my_i2c1.c)(0x5F009978)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\my_i2c1.o --omf_browse .\output\release\my_i2c1.crf --depend .\output\release\my_i2c1.d)
+I (..\..\..\..\driver\inc\i2c.h)(0x5BD6B3D5)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+I (my_sdk\my_i2c\my_i2c1.h)(0x5F009978)
+I (.\my_sdk\my_uart\my_uart.h)(0x5EFEEF51)
+F (..\..\..\..\driver\src\ddl.c)(0x5E1EB2CE)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\ddl.o --omf_browse .\output\release\ddl.crf --depend .\output\release\ddl.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\..\..\..\driver\src\interrupts_hc32l136.c)(0x5B849878)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\interrupts_hc32l136.o --omf_browse .\output\release\interrupts_hc32l136.crf --depend .\output\release\interrupts_hc32l136.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\..\..\..\driver\src\sysctrl.c)(0x5E1EE4D6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\sysctrl.o --omf_browse .\output\release\sysctrl.crf --depend .\output\release\sysctrl.d)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+F (..\..\..\..\driver\src\uart.c)(0x5BD6B3D4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\uart.o --omf_browse .\output\release\uart.crf --depend .\output\release\uart.d)
+I (..\..\..\..\driver\inc\uart.h)(0x5BD6B3D4)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\..\..\..\driver\src\gpio.c)(0x5BBF11C4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\gpio.o --omf_browse .\output\release\gpio.crf --depend .\output\release\gpio.d)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\..\..\..\driver\src\flash.c)(0x5C45986B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\flash.o --omf_browse .\output\release\flash.crf --depend .\output\release\flash.d)
+I (..\..\..\..\driver\inc\flash.h)(0x5E3793B7)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\..\..\..\driver\src\adt.c)(0x5C8B4289)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\adt.o --omf_browse .\output\release\adt.crf --depend .\output\release\adt.d)
+I (..\..\..\..\driver\inc\adt.h)(0x5B849877)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\..\..\..\driver\src\i2c.c)(0x5BD6B3D4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\i2c.o --omf_browse .\output\release\i2c.crf --depend .\output\release\i2c.d)
+I (..\..\..\..\driver\inc\i2c.h)(0x5BD6B3D5)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (..\readme.txt)(0x5BA1D254)()
+F (.\function\manager\manager.c)(0x5FEDA4C7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\manager.o --omf_browse .\output\release\manager.crf --depend .\output\release\manager.d)
+I (function\manager\manager.h)(0x5EFF141A)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (.\my_sdk\my_gpio\my_gpio.h)(0x5FEDA4C7)
+I (..\..\..\..\driver\inc\gpio.h)(0x5B9797C9)
+F (.\function\manager\manager.h)(0x5EFF141A)()
+F (.\function\gui\gui.c)(0x5FF2788E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\gui.o --omf_browse .\output\release\gui.crf --depend .\output\release\gui.d)
+I (function\gui\gui.h)(0x5FF276D6)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (.\hardware\oled\oled.h)(0x5EE434A0)
+F (.\function\gui\gui.h)(0x5FF276D6)()
+F (.\hardware\oled\oled.c)(0x5F001DA5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\oled.o --omf_browse .\output\release\oled.crf --depend .\output\release\oled.d)
+I (hardware\oled\oled.h)(0x5EE434A0)
+I (hardware\oled\font.h)(0x5F017DEE)
+I (.\my_sdk\my_i2c\my_i2c0.h)(0x5F009978)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+F (.\hardware\oled\oled.h)(0x5EE434A0)()
+F (.\hardware\oled\font.h)(0x5F017DEE)()
+F (.\hardware\mcp3426\mcp3426.c)(0x5FF26ED1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\mcu\common -I ..\source -I ..\..\..\..\driver\inc -I .\my_sdk\my_gpio -I .\my_sdk\my_systick -I .\my_sdk\my_uart -I .\my_sdk\my_pwm -I .\function\manager -I .\hardware\oled -I .\hardware\mcp3426 -I .\my_sdk\my_i2c -I .\function\gui-I.\RTE\__project_template_release-ID:\MDK5\MDK5_28\HDSC\HC32L130\1.0.0\Device\Include-ID:\MDK5\MDK5_28\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_-o .\output\release\mcp3426.o --omf_browse .\output\release\mcp3426.crf --depend .\output\release\mcp3426.d)
+I (hardware\mcp3426\mcp3426.h)(0x5F00A145)
+I (..\..\..\..\driver\inc\ddl.h)(0x5B849877)
+I (..\..\..\..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\..\..\..\mcu\common\hc32l136.h)(0x5BF37B61)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h)(0x559CEB9A)
+I (D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h)(0x559CEB9A)
+I (..\..\..\..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\..\..\..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\..\..\..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\ddl_device.h)(0x5CD9314D)
+I (.\my_sdk\my_i2c\my_i2c1.h)(0x5F009978)

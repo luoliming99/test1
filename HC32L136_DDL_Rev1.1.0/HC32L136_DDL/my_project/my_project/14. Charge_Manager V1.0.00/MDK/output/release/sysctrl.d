@@ -1,0 +1,17 @@
+.\output\release\sysctrl.o: ..\..\..\..\driver\src\sysctrl.c
+.\output\release\sysctrl.o: ..\..\..\..\driver\inc\sysctrl.h
+.\output\release\sysctrl.o: ..\..\..\..\driver\inc\ddl.h
+.\output\release\sysctrl.o: ..\..\..\..\mcu\common\base_types.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\ARMCC\include\stdio.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\ARMCC\include\string.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\ARMCC\include\stddef.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\ARMCC\include\stdint.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\ARMCC\include\assert.h
+.\output\release\sysctrl.o: ..\..\..\..\mcu\common\hc32l136.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cm0plus.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmInstr.h
+.\output\release\sysctrl.o: D:\MDK5\MDK5_28\ARM\CMSIS\Include\core_cmFunc.h
+.\output\release\sysctrl.o: ..\..\..\..\mcu\common\system_hc32l136.h
+.\output\release\sysctrl.o: ..\..\..\..\driver\inc\sysctrl.h
+.\output\release\sysctrl.o: ..\source\ddl_device.h
+.\output\release\sysctrl.o: ..\..\..\..\driver\inc\interrupts_hc32l136.h
